@@ -64,11 +64,19 @@ p, h1, h2, h3, {
         display: block;
         gap: 40px;
         padding: 24px 0;
+        transform: color 250ms;
         }
+
+ .nav-link:hover,
+ .nav-link:focus {
+ color: #404bbf;
+  }
+
 .current {
     position: relative;
-
+    color: #404BBF;
 }
+
 .current::after {
     content:"";
     background-color: #404BBF;
@@ -79,6 +87,7 @@ p, h1, h2, h3, {
     left: 0;
     bottom: -1px;
 }
+
 .nav-link:last-child {
     margin-right: 0px;
 }
@@ -87,16 +96,19 @@ p, h1, h2, h3, {
 .nav-link:focus{
     color: #404bbf;
 }
+
 .address {
     font-style: normal;
     margin-left: auto;
 }
 .address-link {
     color: #434455;
-        font-size: 16px;
-        letter-spacing: 0.02em;
-        line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address-link:hover,
 .address :focus  {
     color: #404bbf;
@@ -104,6 +116,10 @@ p, h1, h2, h3, {
 
 .start {
 background: #2E2F42;
+background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+    url(../images/people-office\ 1-min.jpg);
+background-position: center;
+background-size: cover;
 }
 .solutions {
     color: #FFF;
@@ -230,7 +246,10 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-   
+}
+
+.header-soc-icon {
+    fill: transparent;
 }
 .middle {
     color: #434455;
