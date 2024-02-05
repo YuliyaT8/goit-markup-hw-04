@@ -373,9 +373,11 @@ padding: 100px 0;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5px;
     letter-spacing: 0.02em;
     display: inline-block;
+    font-weight: 500;
+    margin-bottom: 16px;
     
    
    }
@@ -414,4 +416,9 @@ padding: 100px 0;
 
    .icon-list .icon-link:hover .icon {
        fill: #03a9f4;
+   }
+   .footer-container {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
    }
