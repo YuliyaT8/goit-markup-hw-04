@@ -417,31 +417,16 @@ padding: 100px 0;
     justify-content: center;
     background-color:#4D5AE5;
     border-radius: 50%;
-    
     }
-   
-    .icon-linkk {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #4D5AE5;
-    border-radius: 50%;
-    gap: 24px;
+    .icon-linkd {
+        width: 40px; ;
+            height: 40px;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4D5AE5;
+            border-radius: 50%;
 
-    }
-    .icon-listt .icon-link:hover .iconn {
-     background-color: #fff;
-    }
-    
-    .icon-listt .iconn {
-    fill: #fff;
-    
-    }
-    
-    .icon-listt .icon-link:hover .iconn {
-            fill: #404bbf;
     }
 
     .icon-itemm {
