@@ -29,8 +29,7 @@ p, h1, h2, h3, {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
-    align-items: baseline;
+    
 }
 .header-container {
     display: flex;
@@ -466,7 +465,7 @@ padding: 100px 0;
    .icon-astrst .icon-anten-link:hover .icon {
        fill: #404bbf;
    }
-   .footer-container {
+   .container-footer {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
