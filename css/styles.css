@@ -29,6 +29,8 @@ p, h1, h2, h3, {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+    display: flex;
+    align-items: baseline;
 }
 .header-container {
     display: flex;
@@ -415,7 +417,7 @@ padding: 100px 0;
     .address .add li:nth-child(2) a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+
    .icon-link{
     width: 100%;
     height: 100%;
