@@ -293,6 +293,9 @@ img {
     width: calc((100% - 72px) / 4);
     margin: 0;
     background-color: #FFF;
+    box-shadow зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
  .team-p {
     color: #434455;
@@ -432,6 +435,7 @@ padding: 100px 0;
     fill: #f4f4fd;
     }
 
+    
     .icon-linkd {
         width: 40px;
         height: 40px;
@@ -465,7 +469,7 @@ padding: 100px 0;
        fill: #404bbf;
    }
    .text-footer-soc {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -476,6 +480,7 @@ padding: 100px 0;
     display: flex;
     align-items: baseline;
     }
-    .icon-item-footer {
-
+    
+    .icon-linkd:hover {
+        background-color: #31d0aa;;
     }
