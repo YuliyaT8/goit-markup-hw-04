@@ -393,7 +393,7 @@ padding: 100px 0;
     
    
    }
-   .icon-list{
+   .icon-list {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -401,9 +401,13 @@ padding: 100px 0;
     
     .icon-item {
       width: 40px;
-       height: 40px;
+      height: 40px;
     }
+    .icon-bottom {
+    display: flex;
+    gap: 16px;
 
+    }
     .icon-astr {
       
         display: flex;
@@ -465,7 +469,16 @@ padding: 100px 0;
    .icon-astrst .icon-anten-link:hover .icon {
        fill: #404bbf;
    }
+   .text-footer-soc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+   }
    .container-bottom {
     display: flex;
     align-items: baseline;
     }
+    
