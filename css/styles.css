@@ -408,8 +408,11 @@ padding: 100px 0;
         display: flex;
         align-items: center;
         justify-content: center;
-      
     }
+    .address li {
+    transition зі значенням color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
    .icon-link{
     width: 100%;
     height: 100%;
