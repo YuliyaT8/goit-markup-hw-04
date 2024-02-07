@@ -410,7 +410,7 @@ padding: 100px 0;
         justify-content: center;
     }
     .address li {
-    transition зі значенням color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
    .icon-link{
