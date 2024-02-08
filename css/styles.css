@@ -486,12 +486,7 @@ padding: 100px 0;
    
 
     }
-    .antena {
-        width: 16px;
-        height: 16px;
-        fill:#f4f4fd;
-    }
-
+   
    .icon-astr .icon-anten-link:hover .icon {
        background-color: #fff;
    }
