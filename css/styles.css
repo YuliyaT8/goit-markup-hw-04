@@ -179,9 +179,7 @@ background-color: #404BBF;
     margin: 0;
 }
 .container-team {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+    padding: 32px 0;
 
 }
 
