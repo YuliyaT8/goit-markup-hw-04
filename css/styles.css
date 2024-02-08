@@ -127,7 +127,6 @@ p, h1, h2, h3, {
  }
 .start {
 background: #2E2F42;
-
 background-position: center;
 background-size: cover;
 box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -178,6 +177,12 @@ background-color: #404BBF;
 }
 .centero {
     margin: 0;
+}
+.container-team {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
 }
 
 .title {
@@ -307,13 +312,12 @@ img {
     flex-shrink: 0;
 }
 .bak {
-    border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
-    background-color: #FFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
+margin: 0;
+background-color: #FFF;
 }
+
  .team-p {
     color: #434455;
     font-size: 16px;
@@ -336,8 +340,8 @@ img {
 .centerr {
     gap: 24px;
     display: flex;
-    
 }
+
 .name {
     background-color: #FFFFFF;
     color:#2e2f42;
@@ -483,6 +487,10 @@ padding: 100px 0;
         justify-content: center;
    
 
+    }
+    .antena {
+        text-align: center;
+        
     }
 
    .icon-astr .icon-anten-link:hover .icon {
