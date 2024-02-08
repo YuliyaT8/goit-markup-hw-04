@@ -417,7 +417,7 @@ padding: 100px 0;
    .icon-list {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
    }
 
     .icon-list-foot {
@@ -487,8 +487,9 @@ padding: 100px 0;
 
     }
     .antena {
-        text-align: center;
-        
+        width: 16px;
+        height: 16px;
+        fill:#f4f4fd;
     }
 
    .icon-astr .icon-anten-link:hover .icon {
@@ -529,3 +530,10 @@ padding: 100px 0;
         align-items: baseline;
         margin-right: 120px;
     }
+         .icon-link:hover {
+             background-color: #404bbf;
+         }
+    
+         .icon-link:focus {
+             background-color: #404bbf;
+         }
