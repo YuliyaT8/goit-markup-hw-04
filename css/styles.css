@@ -298,10 +298,7 @@ img {
 .team-pp {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 40px 32px;
-    color: #f4f4fd;
-    background-color: #4d5ae5;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .forty:hover .sellers-cover-text {
@@ -475,18 +472,19 @@ padding: 100px 0;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #fff;
     position: absolute;
     top: 0;
-    background-color: #434455;
     height: 100%;
     border: 15px 15px 0px 0px;
     display: flex;
     align-items: center;
     padding: 0 40px;
     transform: translateY(100%);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            
+    
+    padding: 40px 32px;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
            
     }
     .sellers-cover-wrap {
@@ -504,7 +502,7 @@ padding: 100px 0;
         fill: #FFF;
         justify-content: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
-
+        
     }
 
    .icon-astr .icon-anten-link:hover .icon {
