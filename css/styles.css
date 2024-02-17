@@ -815,4 +815,32 @@ padding: 100px 0;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color: #ffffff;
+                    
+
                 }
+                .footer-container {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                }
+            .btn-footer {
+            min-width: 165px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+            background-color: #4D5AE5;
+            border: none;
+            border-radius: 4px;
+            }
+            .form-input-subscribe {
+            margin-left: 16px;
+            }
+               
