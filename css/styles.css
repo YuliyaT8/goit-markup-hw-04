@@ -683,10 +683,6 @@ padding: 100px 0;
                      position: relative;
                      
                  }
-                form {
-                gap: 24px;
-
-                }
         
                  .icon-input {
                      position: absolute;
@@ -797,21 +793,21 @@ fill: #f4f4fd;
                         color: var(--navy-blue);
                 }
 
-         .subscribe {
-          margin-bottom: 16px;
-          font-weight: 500;
-          font-size: 16px;
-          line-height: 1.5;
-          letter-spacing: 0.02em;
-         color: #ffffff;
-         }
+    .subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    }
 
-            .footer-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 80px;
-            }
+    .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    }
 
             .btn-footer {
             min-width: 165px;
@@ -830,11 +826,13 @@ fill: #f4f4fd;
             border: none;
             border-radius: 4px;
             }
+
             .form-input-subscribe {
             margin-left: 16px;
             fill: #e7e9fc;
             }
-            .form-em-email {
+
+            .form-email {
             width: 264px;
             height: 40px;
             border: 1px solid #ffffff;
@@ -847,23 +845,16 @@ fill: #f4f4fd;
             border-radius: 4px;
             color: #ffffff;
             }
-.form-main {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color:#2E2F42;
-margin-bottom: 16px;
-}
 
 .form {
 display: flex;
 gap: 24px;
 }
+
 .group-modal {
 margin-bottom: 8px;
 }
+
 .checkbox-form-link {
 width: 16px;
 height: 16px;
