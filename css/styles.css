@@ -796,16 +796,16 @@ fill: #f4f4fd;
                         text-align: center;
                         color: var(--navy-blue);
                 }
-                .subscribe {
-                    margin-bottom: 16px;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    color: #ffffff;
-                    
 
-                }
+         .subscribe {
+          margin-bottom: 16px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.5;
+          letter-spacing: 0.02em;
+         color: #ffffff;
+         }
+
             .footer-container {
             display: flex;
             justify-content: center;
@@ -847,15 +847,15 @@ fill: #f4f4fd;
             border-radius: 4px;
             color: #ffffff;
             }
-            .form-main{
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            text-align: center;
-            letter-spacing: 0.02em;
-            color:#2E2F42;
-            margin-bottom: 16px;
-            }
+.form-main {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color:#2E2F42;
+margin-bottom: 16px;
+}
 
 .form {
 display: flex;
