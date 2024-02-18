@@ -367,18 +367,19 @@
     </ul>
     </div>
     <div class="footer-container">
-      <div class="form-container">
-        <p class="subscribe">Subscribe</p>
+      <p class="subscribe">Subscribe</p>
+      
+        
         <form class="form" name="issue_report_form" autocomplete="off">
     
-          <input class="form-email" type="email" name="email" placeholder="E-mail">
+          <label for="form-email"><input class="form-email" type="email" name="email" placeholder="E-mail"> </label>
           <button class="btn-footer" type="submit">Subscribe
             <svg class="form-input-subscribe" width="24" height="24">
               <use href="./images/icons.svg#icon-Frame-3"></use>
             </svg>
           </button>
         </form>
-      </div>
+      
     </div>
     
     </div>
@@ -436,9 +437,10 @@
 
       <div class="checkbox-form">
         <label class="checkbox" for="user-privacy" aria-label="Accept terms and conditions">
-        <input class="form-inp" type="text" name="user-privacy" id="user-privacy" />
-          I accept the terms and conditions of the
-          <a class="form-link" href="your-privacy-policy-link">Privacy Policy</a>
+        <input class="form-inp visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" />
+        <label for="user-privacy">
+        <span>I accept the terms and conditions of theI accept the terms and conditions of the
+          <a class="form-link" href="your-privacy-policy-link">Privacy Policy</a> </span> </label>
         </label>
       </div>
       <button class="btn-modal" type="submit">Send</button>

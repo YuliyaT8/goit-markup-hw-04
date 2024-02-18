@@ -816,11 +816,13 @@ padding: 100px 0;
                     
 
                 }
-                .footer-container {
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-                }
+            .footer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 80px;
+            }
+
             .btn-footer {
             min-width: 165px;
             height: 40px;
@@ -864,3 +866,8 @@ padding: 100px 0;
             color:#2E2F42;
             margin-bottom: 16px;
             }
+
+.form-main {
+display: flex;
+gap: 24px;
+}
