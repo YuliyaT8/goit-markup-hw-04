@@ -876,7 +876,7 @@ align-items: center;
 justify-content: center;
 fill: transparent;
 }
-.hidden-checkbox:checked+.checkbox .custom-checkbox {
+.form-inp:checked+.checkbox .custom-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
